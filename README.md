@@ -1,2 +1,7 @@
-# LAN-party-2024
-School Center Velenje party
+## LAN PARTY 
+
+Timeline
+**Discord**
+**Baza**
+**Sponzorji**
+**Spletna stran**
