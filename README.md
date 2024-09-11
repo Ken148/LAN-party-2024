@@ -1,6 +1,7 @@
 ## LAN PARTY 
 
 Timeline
+<br>
 --Discord--
 <br>
 --Baza--
