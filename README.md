@@ -1,7 +1,7 @@
 ## LAN PARTY 
 
 Timeline
-----Discord----
-----Baza----
-----Sponzorji----
-----Spletna stran----
+--Discord--
+--Baza--
+--Sponzorji--
+--Spletna stran--
