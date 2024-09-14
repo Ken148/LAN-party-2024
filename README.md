@@ -1,6 +1,6 @@
 # LAN Party: Online & Offline Gaming Event
 
-![LAN Partyhttps://github.com/user-attachments/assets/bd8cea1d-7c5a-4068-9fd7-fa89b14d9c9f)
+![Untitled (2)](https://github.com/user-attachments/assets/52fad0f4-3fac-4c80-b9bf-df54e9d10e11)
 
 ## Overview
 
