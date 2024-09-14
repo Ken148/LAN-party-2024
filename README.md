@@ -17,7 +17,7 @@
 ## Features
 
 - **Online:** Users can connect through our streams and watch gameplay online.
-- **Gaming:** We organize a LAN party where users can play games on school computers.
+- **Gaming:** We organize a LAN party where guests can play games on school computers or their own.
 - **Tournaments:** Two tournaments in different game categories.
 - **Podcast:** Guests will have the opportunity to record podcasts during the event.
 - **Sponsors:** The event will be supported by various sponsors who will provide prizes and promotional materials.
