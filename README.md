@@ -12,6 +12,7 @@
 - **Luka Kopušar** - Phone app development, sponsor communication, and technical assistance
 - **Matic Basle** - Website and Discord server development, and sponsor communication
 - **Jay Ram Celinščak** - Website development, general support, and technical assistance
+- **Neja Golčman** - sponsor communication, photographer, filming, general promotion
 
 ## Features
 
