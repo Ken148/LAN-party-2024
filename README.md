@@ -1,6 +1,6 @@
 # LAN Party: Online & Offline Gaming Event
 
-![LAN Party](https://via.placeholder.com/800x400.png?text=LAN+Party+Banner)
+![LAN Partyhttps://github.com/user-attachments/assets/bd8cea1d-7c5a-4068-9fd7-fa89b14d9c9f)
 
 ## Overview
 
