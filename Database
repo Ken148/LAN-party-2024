@@ -1,0 +1,178 @@
+/*
+Created: 15. 09. 2024
+Modified: 15. 09. 2024
+Model: MySQL 8.0
+Database: MySQL 8.0
+*/
+
+-- Create tables section -------------------------------------------------
+
+-- Table students
+
+CREATE TABLE `students`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `username` Varchar(200) NOT NULL,
+  `surname` Varchar(200) NOT NULL,
+  `email` Varchar(200) NOT NULL,
+  `password` Varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+;
+
+-- Table games
+
+CREATE TABLE `games`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `name` Varchar(200) NOT NULL,
+  `type` Varchar(200) NOT NULL,
+  `description` Text,
+  PRIMARY KEY (`id`)
+)
+;
+
+-- Table tournaments
+
+CREATE TABLE `tournaments`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `name` Varchar(200) NOT NULL,
+  `start_date` Datetime NOT NULL,
+  `end_date` Datetime NOT NULL,
+  `status` Varchar(200) NOT NULL,
+  `game_id` Int NOT NULL,
+  PRIMARY KEY (`id`)
+)
+;
+
+CREATE INDEX `IX_Relationship2` ON `tournaments` (`game_id`)
+;
+
+-- Table teams
+
+CREATE TABLE `teams`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `name` Varchar(200) NOT NULL,
+  `description` Text,
+  `student_id` Int NOT NULL,
+  PRIMARY KEY (`id`)
+)
+;
+
+CREATE INDEX `IX_Relationship1` ON `teams` (`student_id`)
+;
+
+-- Table prizes
+
+CREATE TABLE `prizes`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `name` Varchar(200) NOT NULL,
+  `description` Text,
+  PRIMARY KEY (`id`)
+)
+;
+
+-- Table matches
+
+CREATE TABLE `matches`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `match_date` Datetime NOT NULL,
+  `result` Varchar(200) NOT NULL,
+  `team_id` Int NOT NULL,
+  `tournament_id` Int NOT NULL,
+  PRIMARY KEY (`id`)
+)
+;
+
+CREATE INDEX `IX_Relationship5` ON `matches` (`tournament_id`)
+;
+
+CREATE INDEX `IX_Relationship6` ON `matches` (`team_id`)
+;
+
+-- Table results
+
+CREATE TABLE `results`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `winner` Varchar(200) NOT NULL,
+  `score` Varbinary(200) NOT NULL,
+  `team_id` Int NOT NULL,
+  `match_id` Int NOT NULL,
+  PRIMARY KEY (`id`)
+)
+;
+
+CREATE INDEX `IX_Relationship10` ON `results` (`team_id`)
+;
+
+CREATE INDEX `IX_Relationship11` ON `results` (`match_id`)
+;
+
+-- Table tournament_teams
+
+CREATE TABLE `tournament_teams`
+(
+  `team_id` Int NOT NULL,
+  `tournament_id` Int NOT NULL
+)
+;
+
+CREATE INDEX `IX_Relationship14` ON `tournament_teams` (`team_id`)
+;
+
+CREATE INDEX `IX_Relationship15` ON `tournament_teams` (`tournament_id`)
+;
+
+-- Table tournaments_prizes
+
+CREATE TABLE `tournaments_prizes`
+(
+  `tournament_id` Int NOT NULL,
+  `prize_id` Int NOT NULL
+)
+;
+
+CREATE INDEX `IX_Relationship16` ON `tournaments_prizes` (`tournament_id`)
+;
+
+CREATE INDEX `IX_Relationship17` ON `tournaments_prizes` (`prize_id`)
+;
+
+-- Create foreign keys (relationships) section -------------------------------------------------
+
+ALTER TABLE `teams` ADD CONSTRAINT `Relationship1` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `tournaments` ADD CONSTRAINT `Relationship2` FOREIGN KEY (`game_id`) REFERENCES `games` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `matches` ADD CONSTRAINT `Relationship5` FOREIGN KEY (`tournament_id`) REFERENCES `tournaments` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `matches` ADD CONSTRAINT `Relationship6` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `results` ADD CONSTRAINT `Relationship10` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `results` ADD CONSTRAINT `Relationship11` FOREIGN KEY (`match_id`) REFERENCES `matches` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `tournament_teams` ADD CONSTRAINT `Relationship14` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `tournament_teams` ADD CONSTRAINT `Relationship15` FOREIGN KEY (`tournament_id`) REFERENCES `tournaments` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `tournaments_prizes` ADD CONSTRAINT `Relationship16` FOREIGN KEY (`tournament_id`) REFERENCES `tournaments` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `tournaments_prizes` ADD CONSTRAINT `Relationship17` FOREIGN KEY (`prize_id`) REFERENCES `prizes` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+
