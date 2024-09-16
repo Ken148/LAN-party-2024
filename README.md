@@ -1,4 +1,4 @@
-# LAN Party: Online & Offline Gaming Event
+8# LAN Party: Online & Offline Gaming Event
 
 ![download (1)](https://github.com/user-attachments/assets/aad8adfc-d4c5-4bd8-8a9e-fd85248b4b95)
 
@@ -35,11 +35,11 @@
 | Phase           | Description                          | Deadline          |
 |-----------------|--------------------------------------|-------------------|
 | **Phase 1**     | Event planning                       | -- "20.3 March 2024 example "-- |
-| **Phase 2**     | Discord                              | --blank--- |
-| **Phase 3**     | App develoment                       | --blank--- |
-| **Phase 4**     | Website development                  | --blank--- |
-| **Phase 5**     | Database                             | --blank--- |
-| **Phase 6**     | Other                                | --blank--- |
+| **Phase 2**     | Github                              | --blank--- |
+| **Phase 3**     | Discord                      | --blank--- |
+| **Phase 4**     | Contacting sponsors                  | --blank--- |
+| **Phase 5**     | Website development                             | --blank--- |
+| **Phase 6**     | App development                   | --blank--- |
 
 ## Links
 
