@@ -42,6 +42,8 @@
 | **Phase 6**     | Contacting sponsors                  | --blank--- |
 | **Phase 7**     | Website development                  | --blank--- |
 | **Phase 8**     | App development                      | --blank--- |
+| **Phase 9**     | Setting up venue and network         | --blank--- |
+| **Phase 10**    | Running the event                    | --blank--- |
 
 ## Links
 
