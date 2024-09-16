@@ -34,16 +34,16 @@
 
 | Phase           | Description                          | Deadline          |
 |-----------------|--------------------------------------|-------------------|
-| **Phase 1**     | Planning event                       | -- "20.3 March 2024 example "-- |
-| **Phase 2**     | Github setup                         | --blank--- |
-| **Phase 3**     | Creating database                    | --blank--- |
-| **Phase 4**     | Discord setup                        | --blank--- |
-| **Phase 5**     | Flyers promotion                     | --blank--- |
-| **Phase 6**     | Contacting sponsors                  | --blank--- |
-| **Phase 7**     | Website development                  | --blank--- |
-| **Phase 8**     | App development                      | --blank--- |
-| **Phase 9**     | Setting up venue and network         | --blank--- |
-| **Phase 10**    | Running the event                    | --blank--- |
+| **Phase 1**     | Planning event                       | |
+| **Phase 2**     | Github setup                         | |
+| **Phase 3**     | Creating database                    | |
+| **Phase 4**     | Discord setup                        | |
+| **Phase 5**     | Flyers promotion                     | |
+| **Phase 6**     | Contacting sponsors                  | |
+| **Phase 7**     | Website development                  | |
+| **Phase 8**     | App development                      | |
+| **Phase 9**     | Setting up venue and network         | |
+| **Phase 10**    | Running the event                    | |
 
 ## Links
 
