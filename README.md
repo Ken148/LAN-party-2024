@@ -1,4 +1,4 @@
-8# LAN Party: Online & Offline Gaming Event
+# LAN Party: Online & Offline Gaming Event
 
 ![download (1)](https://github.com/user-attachments/assets/aad8adfc-d4c5-4bd8-8a9e-fd85248b4b95)
 
