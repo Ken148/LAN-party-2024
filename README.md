@@ -38,8 +38,8 @@
 | **Phase 2**     | Github setup                         | |
 | **Phase 3**     | Creating database                    | |
 | **Phase 4**     | Discord setup                        | |
-| **Phase 5**     | Flyers promotion                     | |
-| **Phase 6**     | Contacting sponsors                  | |
+| **Phase 5**     | Contacting sponsors                  | |
+| **Phase 6**     | Flyers promotion                     | |
 | **Phase 7**     | Website development                  | |
 | **Phase 8**     | App development                      | |
 | **Phase 9**     | Setting up venue and network         | |
