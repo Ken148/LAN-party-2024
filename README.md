@@ -48,7 +48,7 @@
 
 ## Event
 
-| Date and time of event   | 28,1,2 February-March |
+| Date and time of event   | 28,1,2 February-March | |
 |
 
 ## Links
