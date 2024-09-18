@@ -34,7 +34,7 @@
 
 | Phase           | Description                          | Deadline          |
 |-----------------|--------------------------------------|-------------------|
-| **Phase 1**     | Planning event                       |  |
+| **Phase 1**     | Planning event                       | |
 | **Phase 2**     | Github setup                         | |
 | **Phase 3**     | Creating database                    | |
 | **Phase 4**     | Discord setup                        | |
@@ -48,7 +48,7 @@
 
 ## Event
 
-| Date and time of event   | 28,1,2 February-March | |
+| **Date and time of event**   | 28,1,2 February-March | |
 |
 
 ## Links
