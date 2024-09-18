@@ -46,10 +46,9 @@
 | **Phase 10**    | Running the event                    | |
 |-----------------|--------------------------------------| |
 
-## Event
-
-| **Date and time of event**   | 28,1,2 February-March | |
-|
+| Event           | Description                          |
+|-----------------|------------------------------------|
+| **Date**        | 28,1,2 February-March.             |
 
 ## Links
 
