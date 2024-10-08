@@ -44,7 +44,6 @@
 | **Phase 8**     | App development                      | |
 | **Phase 9**     | Setting up venue and network         | |
 | **Phase 10**    | Running the event                    | |
-|-----------------|--------------------------------------|-------------------|
 
 | Event           | Description                          |
 |-----------------|------------------------------------|
