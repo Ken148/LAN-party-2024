@@ -21,35 +21,6 @@ CREATE TABLE `DefaultDatabase`.`students`
 )
 ;
 
--- Table DefaultDatabase.games
-
-CREATE TABLE `DefaultDatabase`.`games`
-(
-  `id` Int NOT NULL AUTO_INCREMENT,
-  `name` Varchar(200) NOT NULL,
-  `type` Varchar(200) NOT NULL,
-  `description` Text,
-  PRIMARY KEY (`id`)
-)
-;
-
--- Table DefaultDatabase.tournaments
-
-CREATE TABLE `DefaultDatabase`.`tournaments`
-(
-  `id` Int NOT NULL AUTO_INCREMENT,
-  `name` Varchar(200) NOT NULL,
-  `start_date` Datetime NOT NULL,
-  `end_date` Datetime NOT NULL,
-  `status` Varchar(200) NOT NULL,
-  `game_id` Int NOT NULL,
-  PRIMARY KEY (`id`)
-)
-;
-
-CREATE INDEX `IX_Relationship2` ON `DefaultDatabase`.`tournaments` (`game_id`)
-;
-
 -- Table DefaultDatabase.teams
 
 CREATE TABLE `DefaultDatabase`.`teams`
@@ -63,88 +34,6 @@ CREATE TABLE `DefaultDatabase`.`teams`
 ;
 
 CREATE INDEX `IX_Relationship1` ON `DefaultDatabase`.`teams` (`student_id`)
-;
-
--- Table DefaultDatabase.prizes
-
-CREATE TABLE `DefaultDatabase`.`prizes`
-(
-  `id` Int NOT NULL AUTO_INCREMENT,
-  `name` Varchar(200) NOT NULL,
-  `description` Text,
-  `prize_id` Int NOT NULL,
-  PRIMARY KEY (`id`)
-)
-;
-
-CREATE INDEX `IX_Relationship14` ON `DefaultDatabase`.`prizes` (`prize_id`)
-;
-
--- Table DefaultDatabase.matches
-
-CREATE TABLE `DefaultDatabase`.`matches`
-(
-  `id` Int NOT NULL AUTO_INCREMENT,
-  `match_date` Datetime NOT NULL,
-  `team_id` Int NOT NULL,
-  `tournament_id` Int NOT NULL,
-  PRIMARY KEY (`id`)
-)
-;
-
-CREATE INDEX `IX_Relationship5` ON `DefaultDatabase`.`matches` (`tournament_id`)
-;
-
-CREATE INDEX `IX_Relationship6` ON `DefaultDatabase`.`matches` (`team_id`)
-;
-
--- Table DefaultDatabase.results
-
-CREATE TABLE `DefaultDatabase`.`results`
-(
-  `id` Int NOT NULL AUTO_INCREMENT,
-  `winner` Varchar(200) NOT NULL,
-  `score` Varbinary(200) NOT NULL,
-  `team_id` Int NOT NULL,
-  `match_id` Int NOT NULL,
-  PRIMARY KEY (`id`)
-)
-;
-
-CREATE INDEX `IX_Relationship10` ON `DefaultDatabase`.`results` (`team_id`)
-;
-
-CREATE INDEX `IX_Relationship11` ON `DefaultDatabase`.`results` (`match_id`)
-;
-
--- Table DefaultDatabase.tournament_teams
-
-CREATE TABLE `DefaultDatabase`.`tournament_teams`
-(
-  `team_id` Int NOT NULL,
-  `tournament_id` Int NOT NULL
-)
-;
-
-CREATE INDEX `IX_Relationship14` ON `DefaultDatabase`.`tournament_teams` (`team_id`)
-;
-
-CREATE INDEX `IX_Relationship15` ON `DefaultDatabase`.`tournament_teams` (`tournament_id`)
-;
-
--- Table DefaultDatabase.tournaments_prizes
-
-CREATE TABLE `DefaultDatabase`.`tournaments_prizes`
-(
-  `tournament_id` Int NOT NULL,
-  `prize_id` Int NOT NULL
-)
-;
-
-CREATE INDEX `IX_Relationship16` ON `DefaultDatabase`.`tournaments_prizes` (`tournament_id`)
-;
-
-CREATE INDEX `IX_Relationship17` ON `DefaultDatabase`.`tournaments_prizes` (`prize_id`)
 ;
 
 -- Table blog
@@ -182,36 +71,31 @@ CREATE TABLE `pictures`
 ALTER TABLE `pictures` ADD PRIMARY KEY (`id`)
 ;
 
+-- Table sponsors
+
+CREATE TABLE `sponsors`
+(
+  `id` Int NOT NULL,
+  `name` Varchar(200) NOT NULL,
+  `description` Text,
+  `link` Varchar(1000) NOT NULL,
+  `picture_id` Int NOT NULL,
+  `student_id` Int NOT NULL
+)
+;
+
+CREATE INDEX `IX_Relationship15` ON `sponsors` (`picture_id`)
+;
+
+CREATE INDEX `IX_Relationship16` ON `sponsors` (`student_id`)
+;
+
+ALTER TABLE `sponsors` ADD PRIMARY KEY (`id`)
+;
+
 -- Create foreign keys (relationships) section -------------------------------------------------
 
 ALTER TABLE `DefaultDatabase`.`teams` ADD CONSTRAINT `Relationship1` FOREIGN KEY (`student_id`) REFERENCES `DefaultDatabase`.`students` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-ALTER TABLE `DefaultDatabase`.`tournaments` ADD CONSTRAINT `Relationship2` FOREIGN KEY (`game_id`) REFERENCES `DefaultDatabase`.`games` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-ALTER TABLE `DefaultDatabase`.`matches` ADD CONSTRAINT `Relationship5` FOREIGN KEY (`tournament_id`) REFERENCES `DefaultDatabase`.`tournaments` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-ALTER TABLE `DefaultDatabase`.`matches` ADD CONSTRAINT `Relationship6` FOREIGN KEY (`team_id`) REFERENCES `DefaultDatabase`.`teams` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-ALTER TABLE `DefaultDatabase`.`results` ADD CONSTRAINT `Relationship10` FOREIGN KEY (`team_id`) REFERENCES `DefaultDatabase`.`teams` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-ALTER TABLE `DefaultDatabase`.`results` ADD CONSTRAINT `Relationship11` FOREIGN KEY (`match_id`) REFERENCES `DefaultDatabase`.`matches` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-ALTER TABLE `DefaultDatabase`.`tournament_teams` ADD CONSTRAINT `Relationship14` FOREIGN KEY (`team_id`) REFERENCES `DefaultDatabase`.`teams` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-ALTER TABLE `DefaultDatabase`.`tournament_teams` ADD CONSTRAINT `Relationship15` FOREIGN KEY (`tournament_id`) REFERENCES `DefaultDatabase`.`tournaments` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-ALTER TABLE `DefaultDatabase`.`tournaments_prizes` ADD CONSTRAINT `Relationship16` FOREIGN KEY (`tournament_id`) REFERENCES `DefaultDatabase`.`tournaments` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-;
-
-ALTER TABLE `DefaultDatabase`.`tournaments_prizes` ADD CONSTRAINT `Relationship17` FOREIGN KEY (`prize_id`) REFERENCES `DefaultDatabase`.`prizes` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
 ALTER TABLE `blog` ADD CONSTRAINT `Relationship11` FOREIGN KEY (`picture_id`) REFERENCES `pictures` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
@@ -220,7 +104,10 @@ ALTER TABLE `blog` ADD CONSTRAINT `Relationship11` FOREIGN KEY (`picture_id`) RE
 ALTER TABLE `blog` ADD CONSTRAINT `Relationship13` FOREIGN KEY (`student_id`) REFERENCES `DefaultDatabase`.`students` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
-ALTER TABLE `DefaultDatabase`.`prizes` ADD CONSTRAINT `Relationship14` FOREIGN KEY (`prize_id`) REFERENCES `pictures` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+ALTER TABLE `sponsors` ADD CONSTRAINT `Relationship15` FOREIGN KEY (`picture_id`) REFERENCES `pictures` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `sponsors` ADD CONSTRAINT `Relationship16` FOREIGN KEY (`student_id`) REFERENCES `DefaultDatabase`.`students` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
 ;
 
 
