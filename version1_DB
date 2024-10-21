@@ -1,0 +1,113 @@
+/*
+Created: 21. 10. 2024
+Modified: 21. 10. 2024
+Model: RE MySQL 8.0
+Database: MySQL 8.0
+*/
+
+-- Create tables section -------------------------------------------------
+
+-- Table DefaultDatabase.students
+
+CREATE TABLE `DefaultDatabase`.`students`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `username` Varchar(200) NOT NULL,
+  `surname` Varchar(200) NOT NULL,
+  `email` Varchar(200) NOT NULL,
+  `password` Varchar(200) NOT NULL,
+  `type` Varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+;
+
+-- Table DefaultDatabase.teams
+
+CREATE TABLE `DefaultDatabase`.`teams`
+(
+  `id` Int NOT NULL AUTO_INCREMENT,
+  `name` Varchar(200) NOT NULL,
+  `description` Text,
+  `student_id` Int NOT NULL,
+  PRIMARY KEY (`id`)
+)
+;
+
+CREATE INDEX `IX_Relationship1` ON `DefaultDatabase`.`teams` (`student_id`)
+;
+
+-- Table blog
+
+CREATE TABLE `blog`
+(
+  `id` Int NOT NULL,
+  `title` Varchar(200) NOT NULL,
+  `description` Text NOT NULL,
+  `picture_id` Int NOT NULL,
+  `student_id` Int NOT NULL
+)
+;
+
+CREATE INDEX `IX_Relationship11` ON `blog` (`picture_id`)
+;
+
+CREATE INDEX `IX_Relationship13` ON `blog` (`student_id`)
+;
+
+ALTER TABLE `blog` ADD PRIMARY KEY (`id`)
+;
+
+-- Table pictures
+
+CREATE TABLE `pictures`
+(
+  `id` Int NOT NULL,
+  `name` Varchar(200) NOT NULL,
+  `url` Varchar(500) NOT NULL,
+  `description` Text
+)
+;
+
+ALTER TABLE `pictures` ADD PRIMARY KEY (`id`)
+;
+
+-- Table sponsors
+
+CREATE TABLE `sponsors`
+(
+  `id` Int NOT NULL,
+  `name` Varchar(200) NOT NULL,
+  `description` Text,
+  `link` Varchar(1000) NOT NULL,
+  `picture_id` Int NOT NULL,
+  `student_id` Int NOT NULL
+)
+;
+
+CREATE INDEX `IX_Relationship15` ON `sponsors` (`picture_id`)
+;
+
+CREATE INDEX `IX_Relationship16` ON `sponsors` (`student_id`)
+;
+
+ALTER TABLE `sponsors` ADD PRIMARY KEY (`id`)
+;
+
+-- Create foreign keys (relationships) section -------------------------------------------------
+
+ALTER TABLE `DefaultDatabase`.`teams` ADD CONSTRAINT `Relationship1` FOREIGN KEY (`student_id`) REFERENCES `DefaultDatabase`.`students` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `blog` ADD CONSTRAINT `Relationship11` FOREIGN KEY (`picture_id`) REFERENCES `pictures` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `blog` ADD CONSTRAINT `Relationship13` FOREIGN KEY (`student_id`) REFERENCES `DefaultDatabase`.`students` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `sponsors` ADD CONSTRAINT `Relationship15` FOREIGN KEY (`picture_id`) REFERENCES `pictures` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+ALTER TABLE `sponsors` ADD CONSTRAINT `Relationship16` FOREIGN KEY (`student_id`) REFERENCES `DefaultDatabase`.`students` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+;
+
+
