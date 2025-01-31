@@ -18,11 +18,7 @@ The event will include discussions, food, drinks, two main tournaments (CS:GO an
 
 ## Features
 
-- **Online:** Users can connect through our streams and watch gameplay online.
-- **Gaming:** We organize a LAN party where guests can play games on school computers or their own.
-- **Tournaments:** Two tournaments in different game categories.
-- **Podcast:** Guests will have the opportunity to record podcasts during the event.
-- **Sponsors:** The event will be supported by various sponsors who will provide prizes and promotional materials.
+
 
 ### Website  
 Ready to show your skills? Join the action and compete in our tournaments! Sign up now through the link below!
