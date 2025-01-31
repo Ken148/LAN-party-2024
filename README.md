@@ -26,6 +26,7 @@ The event will include discussions, food, drinks, two main tournaments (CS:GO an
 
 ### Website
 Want to compete in any of the tournaments join us on our website in the link below!
+
 **Website:** [SIGN UP](https://lanparty.scv.si)
 
 ## Timeline
