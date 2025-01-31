@@ -8,11 +8,11 @@
 
 ## Team Members
 
-- **Ken Turk** - GitHub management, database management, technical support, and phone app development
-- **Luka Kopušar** - Phone app development, sponsor communication, and technical assistance
-- **Matic Basle** - Website and Discord server development, and sponsor communication
-- **Jay Ram Celinščak** - Website development, general support, and technical assistance
-- **Neja Golčman** - Sponsor communication, photographer, filming, and general promotion
+- **Ken Turk** - Website design; gitHub, database, twitch stream management; technical support
+- **Luka Kopušar** - General support; sponsor communication; and technical assistance
+- **Matic Basle** - Website and Discord server development; and sponsor communication
+- **Jay Ram Celinščak** - Website development; general support; and technical assistance
+- **Neja Golčman** - Sponsor communication; photographer; filming; and general promotion
 
 ## Features
 
