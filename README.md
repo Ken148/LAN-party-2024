@@ -24,10 +24,11 @@ The event will include discussions, food, drinks, two main tournaments (CS:GO an
 - **Podcast:** Guests will have the opportunity to record podcasts during the event.
 - **Sponsors:** The event will be supported by various sponsors who will provide prizes and promotional materials.
 
-### Website
-Want to compete in any of the tournaments join us on our website in the link below!
+### Website  
+Ready to show your skills? Join the action and compete in our tournaments! Sign up now through the link below!
 
-**Website:** [SIGN UP](https://lanparty.scv.si)
+**[🚀 SIGN UP NOW & JOIN THE FUN!](https://lanparty.scv.si)**
+
 
 ## Timeline
 
