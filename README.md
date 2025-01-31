@@ -26,7 +26,7 @@ The event will include discussions, food, drinks, two main tournaments (CS:GO an
 
 ### Website
 
-- **Website:** [LAN Party Website](https://lanparty.scv.si)
+- **Website:** [Sign up now](https://lanparty.scv.si)
 
 ## Timeline
 
