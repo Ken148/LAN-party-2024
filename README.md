@@ -37,8 +37,9 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 | **Phase 5**     | Contacting sponsors                  | |
 | **Phase 6**     | Flyers promotion                     | |
 | **Phase 7**     | Website development                  | |
-| **Phase 8**     | Setting up venue and network         | |
-| **Phase 9**     | Running the event                    | |
+| **Phase 8**     | Twitch setup                         | |
+| **Phase 9**     | Setting up venue and network         | |
+| **Phase 10**    | Running the event                    | |
 
 | Event           | Description                          |
 |-----------------|------------------------------------|
