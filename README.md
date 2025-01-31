@@ -25,8 +25,8 @@ The event will include discussions, food, drinks, two main tournaments (CS:GO an
 - **Sponsors:** The event will be supported by various sponsors who will provide prizes and promotional materials.
 
 ### Website
-Want to compete in any of the tournaments join our website in the link below!
-- **Website:** [SIGN UP](https://lanparty.scv.si)
+Want to compete in any of the tournaments join us on our website in the link below!
+**Website:** [SIGN UP](https://lanparty.scv.si)
 
 ## Timeline
 
