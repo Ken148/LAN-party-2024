@@ -24,7 +24,7 @@
 
 ### Website
 
-- **Website:** [LAN Party Website](https://yourwebsite.com)
+- **Website:** [LAN Party Website](https://lanparty.scv.si)
 
 ## Timeline
 
@@ -47,7 +47,7 @@
 
 ## Links
 
-- **Website:** [LAN Party Website]([https://lanparty.scv.si](https://lanparty.scv.si))
+- **Website:** [LAN Party Website](https://lanparty.scv.si)
 
 ## Contact
 
