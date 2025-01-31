@@ -51,8 +51,7 @@
 
 ## Links
 
-- **Website:** [LAN Party Website](https://yourwebsite.com)
-- **Application:** [LAN Party Application](https://yourapplication.com)
+- **Website:** [LAN Party Website]([https://lanparty.scv.si](https://lanparty.scv.si))
 
 ## Contact
 
