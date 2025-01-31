@@ -26,10 +26,6 @@
 
 - **Website:** [LAN Party Website](https://yourwebsite.com)
 
-### Application
-
-- **Application:** [LAN Party Application](https://yourapplication.com)
-
 ## Timeline
 
 | Phase           | Description                          | Deadline          |
