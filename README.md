@@ -47,7 +47,7 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 
 ## Links
 
-- **Website:** [LAN Party Website](https://lanparty.scv.si)
+- **Sponsors:** [LAN Party Website](https://lanparty.scv.si)
 
 ## Contact
 
