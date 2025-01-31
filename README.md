@@ -26,7 +26,7 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 **[🚀 SIGN UP NOW & JOIN THE FUN!](https://lanparty.scv.si)**
 
 
-## Timeline
+## Project Roadmap
 
 | Phase           | Description                          | Deadline          |
 |-----------------|--------------------------------------|-------------------|
