@@ -1,6 +1,9 @@
 # LAN Party: Online & Offline Gaming Event
 
-<img src="https://github.com/user-attachments/assets/c84b8e97-308a-4911-9ca5-b5b1bda1e263" width="750">
+<div style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/c84b8e97-308a-4911-9ca5-b5b1bda1e263" width="500">
+</div>
+
 
 ## Overview
 
