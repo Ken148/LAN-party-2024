@@ -28,18 +28,18 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 
 ## 📌 Project Roadmap  
 
-| **Phase**    | **Task**                               | **Details**                        | 
-|--------------|----------------------------------------|------------------------------------|
-| **Phase 1**  | 📝 Planning Event                     | Outline goals, agenda, settings meeting plans | 
-| **Phase 2**  | 🔧 GitHub Setup                       | Repository creation & documentation |
+| **Phase**    | **Task**                               | **Details**                                                               | 
+|--------------|----------------------------------------|---------------------------------------------------------------------------|
+| **Phase 1**  | 📝 Planning Event                     | Outline goals, agenda, settings meeting plans                             | 
+| **Phase 2**  | 🔧 GitHub Setup                       | Repository creation & documentation                                       |
 | **Phase 3**  | 🗄️ Database Creation                  | Design the database structure, define the schema, and create the database | 
-| **Phase 4**  | 💬 Discord Setup                      | Create server, channels & roles, add bots | 
-| **Phase 5**  | 📞 Contacting Sponsors                | Select desired sponsors, reach out to them, and gather feedback | 
-| **Phase 6**  | 📢 Flyers & Promotion                 | Design & distribute promotional material | 
-| **Phase 7**  | 🌐 Website Development                | Build and launch event website    |
-| **Phase 8**  | 🎥 Twitch Setup                       | Configure live streaming settings | 
-| **Phase 9**  | 🏟️ Venue & Network Setup              | Arrange logistics & tech setup    | 
-| **Phase 10** | 🚀 Running the Event                  | Execute and manage the event      | 
+| **Phase 4**  | 💬 Discord Setup                      | Create server, channels & roles, add bots                                 | 
+| **Phase 5**  | 📞 Contacting Sponsors                | Select desired sponsors, reach out to them, and gather feedback           | 
+| **Phase 6**  | 📢 Flyers & Promotion                 | Design & distribute promotional material                                  | 
+| **Phase 7**  | 🌐 Website Development                | Build and launch event website                                            |
+| **Phase 8**  | 🎥 Twitch Setup                       | Configure live streaming settings                                         | 
+| **Phase 9**  | 🏟️ Venue & Network Setup              | Arrange logistics & tech setup                                            | 
+| **Phase 10** | 🚀 Running the Event                  | Execute and manage the event                                              | 
 
 
 | Event           | Description                          |
