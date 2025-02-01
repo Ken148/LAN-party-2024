@@ -28,18 +28,18 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 
 ## 📌 Project Roadmap  
 
-| **Phase**    | **Task**                               | **Details**                        | **Deadline**  |
-|--------------|----------------------------------------|------------------------------------|---------------|
-| **Phase 1**  | 📝 Planning Event                     | Outline goals, agenda, and team   | _[Insert Date]_ |
-| **Phase 2**  | 🔧 GitHub Setup                       | Repository creation & documentation | _[Insert Date]_ |
-| **Phase 3**  | 🗄️ Database Creation                  | Define schema & deploy database   | _[Insert Date]_ |
-| **Phase 4**  | 💬 Discord Setup                      | Create server, channels & roles   | _[Insert Date]_ |
-| **Phase 5**  | 📞 Contacting Sponsors                | Outreach & partnership discussions | _[Insert Date]_ |
-| **Phase 6**  | 📢 Flyers & Promotion                 | Design & distribute promotional material | _[Insert Date]_ |
-| **Phase 7**  | 🌐 Website Development                | Build and launch event website    | _[Insert Date]_ |
-| **Phase 8**  | 🎥 Twitch Setup                       | Configure live streaming settings | _[Insert Date]_ |
-| **Phase 9**  | 🏟️ Venue & Network Setup             | Arrange logistics & tech setup    | _[Insert Date]_ |
-| **Phase 10** | 🚀 Running the Event                  | Execute and manage the event      | _[Insert Date]_ |
+| **Phase**    | **Task**                               | **Details**                        | 
+|--------------|----------------------------------------|------------------------------------|
+| **Phase 1**  | 📝 Planning Event                     | Outline goals, agenda, settings meeting plans | 
+| **Phase 2**  | 🔧 GitHub Setup                       | Repository creation & documentation |
+| **Phase 3**  | 🗄️ Database Creation                  | Define schema & deploy database   | 
+| **Phase 4**  | 💬 Discord Setup                      | Create server, channels & roles   | 
+| **Phase 5**  | 📞 Contacting Sponsors                | Outreach & partnership discussions | 
+| **Phase 6**  | 📢 Flyers & Promotion                 | Design & distribute promotional material | 
+| **Phase 7**  | 🌐 Website Development                | Build and launch event website    |
+| **Phase 8**  | 🎥 Twitch Setup                       | Configure live streaming settings | 
+| **Phase 9**  | 🏟️ Venue & Network Setup              | Arrange logistics & tech setup    | 
+| **Phase 10** | 🚀 Running the Event                  | Execute and manage the event      | 
 
 
 | Event           | Description                          |
