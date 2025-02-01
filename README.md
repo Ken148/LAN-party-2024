@@ -60,4 +60,4 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 - **Instagram:** [Folllow Us](https://www.instagram.com/scvlanparty/)
 ## Contact
 
-For more information, please contact ...
+For more information, please contact any of out social media and other apps!
