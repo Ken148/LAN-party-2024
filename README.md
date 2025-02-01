@@ -26,20 +26,21 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 **[🚀 SIGN UP NOW & JOIN THE FUN!](https://lanparty.scv.si)**
 
 
-## Project Roadmap
+## 📌 Project Roadmap  
 
-| Phase           | Description                          | Deadline          |
-|-----------------|--------------------------------------|-------------------|
-| **Phase 1**     | Planning event                       | |
-| **Phase 2**     | Github setup                         | |
-| **Phase 3**     | Creating database                    | |
-| **Phase 4**     | Discord setup                        | |
-| **Phase 5**     | Contacting sponsors                  | |
-| **Phase 6**     | Flyers promotion                     | |
-| **Phase 7**     | Website development                  | |
-| **Phase 8**     | Twitch setup                         | |
-| **Phase 9**     | Setting up venue and network         | |
-| **Phase 10**    | Running the event                    | |
+| **Phase**    | **Task**                               | **Details**                        | **Deadline**  |
+|--------------|----------------------------------------|------------------------------------|---------------|
+| **Phase 1**  | 📝 Planning Event                     | Outline goals, agenda, and team   | _[Insert Date]_ |
+| **Phase 2**  | 🔧 GitHub Setup                       | Repository creation & documentation | _[Insert Date]_ |
+| **Phase 3**  | 🗄️ Database Creation                  | Define schema & deploy database   | _[Insert Date]_ |
+| **Phase 4**  | 💬 Discord Setup                      | Create server, channels & roles   | _[Insert Date]_ |
+| **Phase 5**  | 📞 Contacting Sponsors                | Outreach & partnership discussions | _[Insert Date]_ |
+| **Phase 6**  | 📢 Flyers & Promotion                 | Design & distribute promotional material | _[Insert Date]_ |
+| **Phase 7**  | 🌐 Website Development                | Build and launch event website    | _[Insert Date]_ |
+| **Phase 8**  | 🎥 Twitch Setup                       | Configure live streaming settings | _[Insert Date]_ |
+| **Phase 9**  | 🏟️ Venue & Network Setup             | Arrange logistics & tech setup    | _[Insert Date]_ |
+| **Phase 10** | 🚀 Running the Event                  | Execute and manage the event      | _[Insert Date]_ |
+
 
 | Event           | Description                          |
 |-----------------|------------------------------------|
