@@ -57,7 +57,7 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 - **Sponsors:** [View Our Sponsors](https://lanparty.scv.si/sponsors)  
 - **Discord:** [Join Our Discord](https://discord.gg/Z5hCESmjDR)
 - **Twitch:** [Show Your Support on Twitch!](https://www.twitch.tv/scvlanparty)
-
+- **Instagram:** [Folllow Us On Instagram!](https://www.instagram.com/scvlanparty/)
 ## Contact
 
 For more information, please contact ...
