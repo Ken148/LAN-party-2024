@@ -4,9 +4,18 @@
 
 ## Overview
 
-LAN Party is a school project organized as part of our seminar work. The project involves hosting a LAN party event where each participant brings their own PC, but they can also enjoy other gaming experiences on devices like Nintendo, PS5, VR, or a driving simulator, in addition to the tournament. 
+## 📝 **About the Event**  
+**LAN Party** is a school project organized as part of our seminar work. We’re hosting a LAN party event where each participant brings their own **PC**, but there will also be opportunities to experience gaming on **Nintendo**, **PS5**, **VR** 🕶️, and a **driving simulator** 🚗, in addition to our exciting tournament lineup.
 
-The event will include discussions, food, drinks, two main tournaments (CS:GO and League of Legends) on separate days, as well as smaller tournaments for Rocket League, FIFA, and Fortnite. The schedule is as follows: the first day will feature the CS:GO and FIFA tournaments, while the second day will host the League of Legends, Rocket League, and Fortnite tournaments. There will also be podcasts and sponsor support throughout the event.
+🍕 The event will feature **discussions** 💬, along with plenty of **food** 🍕 and **drinks** 🥤 to keep everyone refreshed. The highlight of the event will be two major tournaments: **CS:GO** 🎯 and **League of Legends** 🧙, held on separate days. In addition, smaller tournaments for **Rocket League** 🚗⚽, **FIFA** ⚽, and **Fortnite** 🏰 will take place.
+
+---
+
+## 🗓️ **Tournament Schedule:**
+- **Day 1:** **CS:GO** & **FIFA** tournaments  
+- **Day 2:** **League of Legends**, **Rocket League**, & **Fortnite** tournaments  
+
+---
 
 ## Team Members
 
