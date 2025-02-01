@@ -38,7 +38,7 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 | **Phase 6**  | 📢 Flyers & Promotion                 | Design & distribute promotional material                                  | 
 | **Phase 7**  | 🌐 Website Development                | Build and launch website                                                  |
 | **Phase 8**  | 🎥 Twitch Setup                       | Configure stream settings, make banners, intermission screens, overlays   | 
-| **Phase 9**  | 🏟️ Venue & Network Setup              | Arrange logistics & tech setup                                            | 
+| **Phase 9**  | 🏟️ Venue & Network Setup              | Set up computers, servers, network cables, and other equipment.           | 
 | **Phase 10** | 🚀 Running the Event                  | Execute and manage the event                                              | 
 
 
