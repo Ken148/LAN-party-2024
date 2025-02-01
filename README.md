@@ -6,7 +6,7 @@
 
 🍕 The event will feature **discussions** 💬, along with plenty of **food** 🍕 and **drinks** 🥤 to keep everyone refreshed. The highlight of the event will be two major tournaments: **CS:GO** 🎯 and **League of Legends** 🧙, held on separate days. In addition, smaller tournaments for **Rocket League** 🚗⚽, **FIFA** ⚽, and **Fortnite** 🏰 will take place.
 
-<img src="https://github.com/user-attachments/assets/c84b8e97-308a-4911-9ca5-b5b1bda1e263" width="500">
+<img src="https://github.com/user-attachments/assets/c84b8e97-308a-4911-9ca5-b5b1bda1e263" width="750">
 
 ## 🗓️ **Tournament Schedule:**
 - **Day 1:** **CS:GO** & **FIFA** tournaments  
