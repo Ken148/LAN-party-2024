@@ -42,9 +42,11 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 | **Phase 10** | 🚀 Running the Event                  | Execute and manage the event                                              | 
 
 
-| Event           | Description                          |
-|-----------------|------------------------------------|
-| **Date**        | 28,1,2 February-March.             |
+## 🗓️ **Event Details**  
+
+| **Event**      | **Description**                              |
+|----------------|----------------------------------------------|
+| **📅 Date**    | 28th February - 2nd March                    |
 
 ## Links
 
