@@ -32,7 +32,7 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 |--------------|----------------------------------------|------------------------------------|
 | **Phase 1**  | 📝 Planning Event                     | Outline goals, agenda, settings meeting plans | 
 | **Phase 2**  | 🔧 GitHub Setup                       | Repository creation & documentation |
-| **Phase 3**  | 🗄️ Database Creation                  | Define schema & deploy database   | 
+| **Phase 3**  | 🗄️ Database Creation                  | Design the database structure, define the schema, and create the database | 
 | **Phase 4**  | 💬 Discord Setup                      | Create server, channels & roles   | 
 | **Phase 5**  | 📞 Contacting Sponsors                | Outreach & partnership discussions | 
 | **Phase 6**  | 📢 Flyers & Promotion                 | Design & distribute promotional material | 
