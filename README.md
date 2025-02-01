@@ -36,8 +36,8 @@ Ready to show your skills? Join the action and compete in our tournaments! Sign 
 | **Phase 4**  | 💬 Discord Setup                      | Create server, channels & roles, add bots                                 | 
 | **Phase 5**  | 📞 Contacting Sponsors                | Select desired sponsors, reach out to them, and gather feedback           | 
 | **Phase 6**  | 📢 Flyers & Promotion                 | Design & distribute promotional material                                  | 
-| **Phase 7**  | 🌐 Website Development                | Build and launch event website                                            |
-| **Phase 8**  | 🎥 Twitch Setup                       | Configure live streaming settings                                         | 
+| **Phase 7**  | 🌐 Website Development                | Build and launch website                                                  |
+| **Phase 8**  | 🎥 Twitch Setup                       | Configure stream settings, make banners, intermission screens, overlays   | 
 | **Phase 9**  | 🏟️ Venue & Network Setup              | Arrange logistics & tech setup                                            | 
 | **Phase 10** | 🚀 Running the Event                  | Execute and manage the event                                              | 
 
